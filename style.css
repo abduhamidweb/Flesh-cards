@@ -37,7 +37,7 @@ body {
   color: white;
 }
 .form {
-  width: 300px;
+  max-width: 300px;
   margin: auto;
 }
 .form button {
