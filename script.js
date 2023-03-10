@@ -509,7 +509,7 @@ array.forEach((item) => {
     card.textContent = item.number < 10 ? "0"+item.number : item.number;
 
   card.addEventListener('click', () => {
-    if (card.textContent === item.number.toString()) {
+    if (card.textContent == item.number.toString() || card.textContent==00|| card.textContent==01|| card.textContent==02|| card.textContent==03|| card.textContent==04|| card.textContent==05|| card.textContent==06|| card.textContent==07|| card.textContent==08|| card.textContent==09) {
       card.textContent = item.image
     } else {
       card.textContent = item.number

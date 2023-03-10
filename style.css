@@ -1,5 +1,5 @@
-body{
-    background: black;
+body {
+  background: black;
 }
 .card {
   margin: 10px;
@@ -31,4 +31,35 @@ body{
 .card:active {
   transform: scale(0.95);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+#cards-container2 h1 {
+  text-align: center;
+  color: white;
+}
+.form {
+  width: 300px;
+  margin: auto;
+}
+.form button {
+  background: blue;
+  padding: 0px 50px;
+  margin:30px auto;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+
+}
+label {
+  color: white;
+  display: block;
+  font-size: 20px;
+}
+input {
+  outline: none;
+  border: none;
+  background-color: #ffffff7a;
+  color: white;
+  text-align: center;
+  font-size: 30px;
 }
