@@ -506,7 +506,7 @@ array.forEach((item) => {
     const card = document.createElement('div')
     card.setAttribute("class", "col-3 mx-auto p-3")
     card.classList.add('card');
-  card.textContent = item.number
+    card.textContent = item.number < 10 ? "0"+item.number : item.number;
 
   card.addEventListener('click', () => {
     if (card.textContent === item.number.toString()) {
